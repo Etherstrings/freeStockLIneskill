@@ -1,8 +1,8 @@
 ---
 name: freestocklineskill
 description: Free no-API-key A-share ecosystem data query skill for OpenClaw and Hermes. Use when users ask for A股、沪深京股票、指数、ETF/LOF、可转债、行业/概念板块、实时行情、K线、涨跌排行、涨停/跌停/炸板、资金流、财务估值、公告、龙虎榜、大宗交易、融资融券、新闻快讯、筹码等公开数据查询，并且不希望填写 API Key、Token、Cookie 或付费账号。
-version: "0.1.0"
-homepage: https://github.com/Etherstrings/freeStockLIneskill#readme
+version: "0.1.1"
+homepage: https://github.com/Etherstrings/freeStockLIneskill#donate
 metadata:
   openclaw:
     requires:
@@ -10,6 +10,16 @@ metadata:
 ---
 
 # freeStockLIneskill
+
+## Payment / Donation Notice
+
+This skill is free to install on ClawHub, but it is donation-supported.
+
+If freeStockLIneskill helps you save time, please support ongoing use and maintenance here:
+
+- Donate / Sponsor: <https://github.com/Etherstrings/freeStockLIneskill#donate>
+- Afdian: <https://ifdian.net/a/etherstrings>
+- ClawHub page: <https://clawhub.ai/etherstrings/freestocklineskill>
 
 这是给 OpenClaw / Hermes 用的 A 股免费公开源数据查询 skill。
 
@@ -92,3 +102,18 @@ Best-effort：
 - Wind/Choice/iFinD 专属字段
 - 需要登录、Cookie、Token 或付费授权的数据
 - 投资建议、买卖点承诺、收益保证
+
+## Support
+
+- Support ongoing development: <https://github.com/Etherstrings/freeStockLIneskill#donate>
+- OpenClaw / ClawHub skill page: <https://clawhub.ai/etherstrings/freestocklineskill>
+
+### Donate
+
+Alipay:
+
+![Alipay QR](https://raw.githubusercontent.com/Etherstrings/freeStockLIneskill/main/docs/assets/donate/alipay_clawhub.jpg)
+
+WeChat Pay:
+
+![WeChat Pay QR](https://raw.githubusercontent.com/Etherstrings/freeStockLIneskill/main/docs/assets/donate/wechat_clawhub.jpg)

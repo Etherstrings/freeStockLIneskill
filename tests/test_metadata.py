@@ -15,7 +15,7 @@ def test_skill_metadata_targets_openclaw_and_has_no_required_env():
     frontmatter = skill_frontmatter()
 
     assert "name: freestocklineskill" in source
-    assert 'version: "0.1.0"' in source
+    assert 'version: "0.1.1"' in source
     assert "openclaw" in source
     assert 'bins: ["python3"]' in source
     assert "OPENAI_API_KEY" not in source

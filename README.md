@@ -12,9 +12,23 @@
 
 自然语言路由 · 免费公开源 · 股票/指数/ETF/可转债 · 板块/资金/公告/财务 · 统一 JSON
 
-[安装使用](#安装) · [自然语言入口](#使用) · [能力边界](freestocklineskill/references/capability-matrix.md) · [路由规则](freestocklineskill/references/natural-language-routing.md) · [常见问法](freestocklineskill/references/use-cases.md) · [Skill 地址](#skill-地址)
+[安装使用](#安装) · [自然语言入口](#使用) · [能力边界](freestocklineskill/references/capability-matrix.md) · [路由规则](freestocklineskill/references/natural-language-routing.md) · [常见问法](freestocklineskill/references/use-cases.md) · [Skill 地址](#skill-地址) · [赞助支持](#donate)
 
 </div>
+
+## <a id="donate"></a>赞助支持
+
+如果这个项目对你有帮助，欢迎赞助支持继续迭代。
+
+- 爱发电主页: https://ifdian.net/a/etherstrings
+- 直接打赏: 使用下方支付宝 / 微信收款码
+
+<div>
+  <img src="docs/assets/donate/alipay.jpg" alt="Alipay QR" width="260" />
+  <img src="docs/assets/donate/wechat.jpg" alt="WeChat Pay QR" width="260" />
+</div>
+
+支持会优先用于免费公开数据源适配、自然语言路由维护和后续功能迭代。
 
 OpenClaw / Hermes 用的免费 A 股生态数据查询 skill。
 
@@ -116,7 +130,7 @@ bash scripts/validate_skill.sh
 
 补充说明：
 
-- 当前准备发布版本：`0.1.0`
+- 当前准备发布版本：`0.1.1`
 - GitHub 仓库名使用展示名 `freeStockLIneskill`
 - OpenClaw / Hermes slug 和目录名使用合法小写 `freestocklineskill`
 
@@ -126,8 +140,8 @@ bash scripts/validate_skill.sh
 clawhub publish freestocklineskill \
   --slug freestocklineskill \
   --name "freeStockLIneskill" \
-  --version 0.1.0 \
-  --changelog "首版免费 A 股生态自然语言数据查询 skill。"
+  --version 0.1.1 \
+  --changelog "补充 GitHub/ClawHub 介绍文档和赞助支持模块。"
 ```
 
 ## 结构
