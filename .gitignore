@@ -1,0 +1,14 @@
+.DS_Store
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+*.pyc
+*.pyo
+*.log
+*.sqlite
+*.db
+reports/
+logs/
+data/

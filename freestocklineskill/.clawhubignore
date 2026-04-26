@@ -1,0 +1,14 @@
+.git/
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+reports/
+logs/
+data/
+*.sqlite
+*.db
+*.log
+*.zip
+*.pyc

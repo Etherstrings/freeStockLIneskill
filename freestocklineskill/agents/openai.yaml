@@ -1,0 +1,7 @@
+interface:
+  display_name: "freeStockLIneskill"
+  short_description: "无 API Key 的 A 股生态免费数据查询"
+  default_prompt: "Use $freestocklineskill for free no-key A-share ecosystem data queries. For natural-language requests, first call `python3 freestocklineskill/scripts/stockline_cli.py smart-query --query \"<用户原话>\"`, then answer from the returned JSON with source and trade-date warnings."
+
+policy:
+  allow_implicit_invocation: true
